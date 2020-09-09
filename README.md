@@ -37,6 +37,7 @@
 ---------------------------------------
 
 6. An authentication system is installed 
+
 |    Authentication      |
 |------------------------|
 | Login: vikter@inbox.lt |
