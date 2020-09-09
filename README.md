@@ -6,7 +6,7 @@
 
 ### Features list:
   
-- [x] Login in;
+- [x] Log in;
 - [x] Add workers/projects;
 - [x] Edit workers/projcets;
 - [x] Delete workers/projects;
@@ -36,6 +36,11 @@
 5. In your coding software (e.g. Visual studio code), open terminal and use : "php artisan serve" command. this will make a virtua lserver to watch your website. Now click on ip adress, it should look like( http://127.0.0.1:8000). Open it.
 ---------------------------------------
 
+6. An authentication system is installed 
+|    Authentication      |
+|------------------------|
+| Login: vikter@inbox.lt |
+| Password: darbas       |
 
 
 ### Author: [Viktoras Jonutis](https://github.com/Vikteris?tab=repositories)
