@@ -1,0 +1,4 @@
+iš migraciju workers failo!!
+$table->bigInteger('project_id')->unsigned()->nullable();
+            $table->timestamps();
+            $table->foreign('project_id')->references('id')->on('projects')->onDelete('set null');
