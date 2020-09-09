@@ -20,7 +20,20 @@
 2. Open "MySQL Workbench" program. On navigation bar press 'Server'->'Data Import'. On 'Import from Dump Project Folder' browse the 'sql_dump' folder and open 'projectmng.sql'file.
     You can find it in a .zip file where you cloned from Github.
 3. Select 'projectmng' schema and selet all tables, and click 'Start Import'.
-4. Go to "localhost" and open "/ProjectManager-laravel" directory. **Notice!** AMPP software have to be working. This App allows you to open your computer "localhost"; 
+4. Connect to you DB, you need to open project and rename ".env.example" file to ".env". and also edit DB connection configs:
+--------------------------------------------
+|     DB connection      |
+|------------------------|
+| DB_CONNECTION=mysql    |
+| DB_HOST=127.0.0.1      |
+| DB_PORT=3306           |
+| DB_DATABASE=projectmng |
+| DB_USERNAME=root       |
+| DB_PASSWORD=mysql      |
+
+
+-------------------------------------------
+5. In your coding software (e.g. Visual studio code), open terminal and use : "php artisan serve" command. this will make a virtua lserver to watch your website. Now click on ip adress, it should look like( http://127.0.0.1:8000). Open it.
 ---------------------------------------
 
 
